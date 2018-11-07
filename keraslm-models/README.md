@@ -16,7 +16,9 @@ During training, 20% of the data were held out for validation to prevent overfit
 
 basename | ppl | century | depth | width | length | stateful
 -------- | --- | ------- | ----- | ----- | ------ | --------
+model_dta_l2_512bs_512 | 4.49 | full | 2 | 512 | 512 | True
 model_dta17_l2_25bs_128 | 5.49 | 17xy | 2 | 128 | 25| True
+model_dta18_l2_512bs_320 | 3.90 | 18xy | 2 | 320 | 512 | True
 model_dta19_l2_15bs_256 | 6.03 | 19xy | 2 | 256 | 15 | True
 model_dta19_l2_512bs_256 | 4.83 | 19xy | 2 | 256 | 512 | True
 model_dta19_l2_512bs_512 | 3.25 | 19xy | 2 | 512 | 512 | True
